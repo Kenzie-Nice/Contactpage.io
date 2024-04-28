@@ -1,3 +1,4 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,6 +23,21 @@
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(255, 255, 255, 0.3); /* Add a subtle shadow */
         }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -42,11 +58,13 @@
     <button type="submit">Submit</button>
 </div>
 
+<!-- Navigation Menu -->
 <ul>
-    <li>Home Page<a href="https://kenzie-nice.github.io/Losingtrack_of_theseSites.io/">Home</a></li>
-    <li>Any Questions, comments, or concerns? <a href="https://kenzie-nice.github.io/Contact-Page.io/">Contact Us!</a></li>
-    <li> Interested in our origin?! <a href="https://kenzie-nice.github.io/About-us.io/">About Us!</a></li>
+    <li><a href="https://kenzie-nice.github.io/Losingtrack_of_theseSites.io/">Home Page</a></li>
+    <li><a href="https://kenzie-nice.github.io/Contact-Page.io/">Any Questions, comments, or concerns? Contact Us!</a></li>
+    <li><a href="https://kenzie-nice.github.io/About-us.io/">Interested in our origin? About Us!</a></li>
 </ul>
 
 </body>
 </html>
+
